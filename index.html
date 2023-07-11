@@ -7,48 +7,84 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Index</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style> 
-  
-   button, i{
-        color: blueviolet;
-       
-    }
-    nav{
-        background-color:rgb(233, 134, 154);
-        font-weight: bolder;
-        
+    <style>
+        button {
+            color: blueviolet;
+            margin-right: 50px;
+        }
 
-    }
+    
+        nav {
+            background-color: rgb(233, 134, 154);   
+        }
+    
+        .fa-facebook-square {
+            color: blue;
+            background-color: #fff;
+            margin-right: 20px;  
+        }
+        .fa.instagram{
+            color:palevioletred;
+            margin-left: 20px;  
+        }
+        .fa-linkedin,.fa-user-circle{
+            margin-left: 20px;  
+            color:#0077b5;
+        }
+        .fa-google-plus-square{
+            color:red;
+            margin-left:20px;
+            margin-right:20px;
+        }
+    
+        .navbar{
+            text-decoration: none;
+            margin-left: 50px;          
+        }
+        header{
+            background-color:rgb(233, 134, 154)
+        }
+        .follo{ 
+            font-weight: bold;
+        }
+        label{
+             margin-left:10px;
+             margin-right: 40px;
+             font-family: 'Princess Sofia', cursive;
+             }
+
     </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap" rel="stylesheet">
 </head>
 
 <body style="background-color:moccasin">
-    <header style="background-color:rgb(233, 134, 154)">
-        <i class="fa fa-user-circle" aria-hidden="true">&nbsp; Mayursingh Rajput</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <i class="fa fa-address-book-o" aria-hidden="true"> &nbsp;+23-254-253-20</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <i class="fa fa-envelope" aria-hidden="true">&nbsp; Mayur@gmail.com</i>&nbsp;&nbsp;&nbsp;&nbsp;
+    <header>
+        <i class="fa fa-user-circle" aria-hidden="true"> </i> <label for="fa-user-circle">Mayursingh Rajput</label>
+        <i class="fa fa-address-book-o" aria-hidden="true"> </i> <label for="fa-address-book-o">+91 883-010-8681 </label>
+        <i class="fa fa-envelope" aria-hidden="true"> </i> <label for="fa-envelope">Mayur@gmail.com</label>
         <button><a href="assets/dev1.jpg" download>Download Resume</a></button>
     </header>
 
     <br>
     <br>
     <nav>
-        <a href="home.html" target="myframe">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="techStack.html" target="myframe">TECHSTACK</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="project.html" target="myframe">PROJECT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="education.html">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="aboutMe.html" target="myframe">ABOUT</a>&nbsp;&nbsp;&nbsp;
+        <a class="navbar"  href="home.html" target="myframe">HOME</a>
+        <a class="navbar"  href="techStack.html" target="myframe">TECHSTACK</a>
+        <a class="navbar"  href="project.html" target="myframe">PROJECT</a>
+        <a class="navbar"  href="education.html" target="myframe">EDUCATION</a>
+        <a class="navbar"  href="aboutMe.html" target="myframe">ABOUT</a>
     </nav>
     <br> <br>
     <iframe src="" height="500" width="500" name="myframe"></iframe>
     <br><br>
     <footer>
-        <span>follow me:</span>
-        <a href="https://www.linkdin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>&nbsp;&nbsp;
-        <a href="https://www.google.com/"> <i class="fa fa-google-plus-square" aria-hidden="true"></i></a>&nbsp;&nbsp;
-        <a href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>&nbsp;&nbsp;
-
-        <a href="https://www.instagram.com/"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <span class="follo" >follow me:</span>
+        <a href="https://www.linkdin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://www.google.com/"> <i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/"> <i  class="fa fa-instagram" aria-hidden="true"></i></a>
 
     </footer>
 </body>
