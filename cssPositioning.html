@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSSPosition</title>
+    <style>
+        div {
+            border: 1px solid black;
+            width: 200px;
+            box-shadow: 12px 12px 0px -8px rgb(224, 219, 219);
+        }
+
+        .Pos1 {
+            margin-left: 50px;
+            top: 50px;
+            position: relative;
+
+            border-radius: 10px;
+            display: inline-block;
+
+        }
+/* ul{list-style:none;} */
+
+        li {
+            list-style-type: none;
+            padding: 5px;
+        };
+
+
+
+   
+   
+     ul li::before {
+            content:"✅";
+            color:rgb(35, 233, 35);
+        }
+         li:hover {
+            color: forestgreen;
+            background-color: rgb(224, 166, 166);
+        }
+        .Pos2 {
+            border-radius: 10px;
+            display: inline-block;
+            margin: 30px 30px;
+
+        }
+
+        .Pos3 {
+            top: 50px;
+            position: relative;
+            border-radius: 10px;
+            display: inline-block;
+
+        }
+
+        .Pos3 h3 {
+            border-radius: 10px;
+            margin-top: 0px;
+            padding: 5px;
+            color: white;
+            text-align: center;
+            background-color: rgb(14, 173, 134);
+        }
+
+        .Pos2 h3 {
+            border-radius: 10px;
+            margin-top: 0px;
+            padding: 5px;
+            color: white;
+            text-align: center;
+            background-color: red;
+        }
+
+        h3 {
+            border-radius: 10px;
+            margin-top: 0px;
+            padding: 5px;
+            color: white;
+            text-align: center;
+            background-color: rgb(14, 173, 134);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+            padding: 5px;
+            border: solid 1px black;
+            margin-left: 10px;
+            margin-right: 10px;
+            background-color: rgb(14, 173, 134);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Pos1">
+        <h3>Basic</h3>
+        <ul>
+            <li>Hosting</li>
+            <li>Domain</li>
+            <li>1 GB Space</li>
+            <li>Free SSL</li>
+            <li>1 Website Host</li>
+        </ul>
+        <h2>$5</h2>
+        <p>Buy Now</p>
+    </div>
+    <div class="Pos2">
+        <h3>Standard</h3>
+        <ul>
+            <li>Hosting</li>
+            <li>Domain</li>
+            <li>10 GB Space</li>
+            <li>Free SSL</li>
+            <li>4 Website Host</li>
+        </ul>
+        <h2>$10</h2>
+        <p>Buy Now</p>
+    </div>
+    <div class="Pos3">
+        <h3>Standard</h3>
+        <ul>
+            <li>Hosting</li>
+            <li>Domain</li>
+            <li>10 GB Space</li>
+            <li>Free SSL</li>
+            <li>4 Website Host</li>
+        </ul>
+        <h2>$20</h2>
+        <p>Buy Now</p>
+    </div>
+</body>
+
+</html>
