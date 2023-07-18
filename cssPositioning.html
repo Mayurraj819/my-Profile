@@ -27,15 +27,26 @@
         li {
             list-style-type: none;
             padding: 5px;
-        };
+        }
 
-
-
-   
-   
-     ul li::before {
+ .Pos3 ul li::before {
             content:"✅";
-            color:rgb(35, 233, 35);
+           
+        }
+
+    .Pos1 ul li:nth-child(even)::before {
+            content:"✅";
+           
+        }
+        .Pos1 ul li:nth-child(odd)::before {
+            content:"❌";
+     
+        }
+        .Pos2 ul li::before {
+            content:"❌";        
+        }
+     .Pos2 ul li:nth-child(4)::before {
+            content:"✅";        
         }
          li:hover {
             color: forestgreen;
@@ -97,7 +108,16 @@
             margin-right: 10px;
             background-color: rgb(14, 173, 134);
         }
+        *{
+        
+        font-family: 'Roboto', sans-serif;
+    }
+
+        }
     </style>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Princess+Sofia&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
